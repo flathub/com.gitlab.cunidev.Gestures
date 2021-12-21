@@ -1,7 +1,7 @@
 {
     "app-id" : "com.gitlab.cunidev.Gestures",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "40",
+    "runtime-version" : "41",
     "sdk" : "org.gnome.Sdk",
     "command" : "gestures",
     "finish-args" : [
@@ -31,8 +31,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.com/cunidev/gestures",
-                    "tag": "0.2.6",
-                    "commit": "c20c51951749aa991c72a2937621b07b7a460f48"
+                    "tag": "0.3.0",
+                    "commit": "6f52e84ce7085839f620988a4e649cd673ae17db"
                 }
             ]
         }
