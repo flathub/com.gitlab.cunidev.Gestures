@@ -1,14 +1,15 @@
 {
     "app-id" : "com.gitlab.cunidev.Gestures",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "41",
+    "runtime-version" : "43",
     "sdk" : "org.gnome.Sdk",
     "command" : "gestures",
     "finish-args" : [
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--filesystem=xdg-config",
+        "--filesystem=xdg-config/libinput-gestures.conf:create",
+        "--filesystem=xdg-config/libinput-gestures.conf.bak:create",
         "--talk-name=org.freedesktop.Flatpak"
     ],
     "cleanup" : [
@@ -31,8 +32,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.com/cunidev/gestures",
-                    "tag": "0.3.0",
-                    "commit": "6f52e84ce7085839f620988a4e649cd673ae17db"
+                    "tag": "0.3.1",
+                    "commit": "d6ca5f23119c243cd8abcc8145187532294b8356"
                 }
             ]
         }
